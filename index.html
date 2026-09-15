@@ -156,7 +156,7 @@ th{background:#f4f7fb;color:#536174;font-weight:950}tr:last-child td{border-bott
   <hr><h4>Raw Material Types</h4><div id="rawTypeSettings"></div><div class="actions"><input id="newRawType" placeholder="e.g. Ink"><button class="btn primary" id="addRawType">Add Material</button></div><hr>
   <h4>☁ Google Sheets Cloud Database</h4>
   <p class="mini">Website ka main data Google Sheet mein save karne ke liye Apps Script Web App URL aur Secret Token yahan ek baar save karein. Browser data clear hone par bhi cloud data safe rahega.</p>
-  <div class="field"><label>Google Apps Script Web App URL</label><input id="cloudUrl" type="url" placeholder="https://script.google.com/macros/s/.../exec" autocomplete="off"></div>
+  <div class="field"><label>Google Apps Script Web App URL</label><input id="cloudUrl" type="url" value='https://script.google.com/macros/s/AKfycbydKwBGPYqCsDWtaIWkSSNxqZ9tFRSg5paR9txA8_1z-AGsrM6L4hRjcr7d77gv_wU/exec' placeholder="https://script.google.com/macros/s/.../exec" autocomplete="off"></div>
   <div class="field"><label>Secret Token</label><input id="cloudToken" type="password" placeholder="Same token jo Apps Script mein set kiya hai" autocomplete="new-password"></div>
   <div class="actions"><button class="btn primary" id="saveCloudUrl">Connect &amp; Sync</button><button class="btn light" id="cloudSyncNow">Sync Now</button></div>
   <div id="cloudStatus" class="mini" style="margin-top:8px">Cloud backup not connected.</div>
